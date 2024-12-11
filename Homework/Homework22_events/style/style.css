@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+
+}
+div{
+    margin-left: 600px;
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightblue;
+    border-radius: 10px;
+    background-color: lightblue;
+    width: 300px;
+    height: 350px;
+}
