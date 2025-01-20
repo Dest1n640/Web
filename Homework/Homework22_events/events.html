@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <script src="./script/script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вложенный список</title>
+  <link rel="stylesheet" href="./style/style.css">
+  <script src = "./script/script.js"></script>
 </head>
 <body>
-    <div>
-      <ul>
-        <li>Машина
+  <div class="container">
+    <ul class="nested-list">
+      <li>
+        Машины
         <ul>
-          <li>Легковые</li>
-          <li>Грузовые
-          <ul>
-            <li>Открытый кузов</li>
-            <li>Закрытый кузов</li>
-          </ul>
+          <li>
+            Легковые
+            <ul>
+              <li>Corolla</li>
+              <li>Pajero</li>
+            </ul>
+          </li>
+          <li>
+            Грузовые
+            <ul>
+              <li>Камаз</li>
+              <li>Белаз</li>
+            </ul>
           </li>
         </ul>
-        </li>
-        <li>Самолеты
+      </li>
+      <li>
+        Самолеты
         <ul>
           <li>Пассажирские</li>
           <li>Грузовые</li>
         </ul>
-        </li>
-        <li>Мотоциклы
-          <ul>
-            <li>3-ёх колесные</li>
-            <li>2-ых колесные</li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+      </li>
+      <li>Мотоциклы</li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
